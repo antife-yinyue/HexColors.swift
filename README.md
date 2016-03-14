@@ -1,7 +1,12 @@
 # HexColors.swift
 
-[![Build Status](https://travis-ci.org/jsw0528/HexColors.swift.svg?branch=master)](https://travis-ci.org/jsw0528/HexColors.swift)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Build status][ci-image]][ci-url]
+[![Carthage compatible][carthage-image]][carthage-url]
+
+[ci-image]: https://travis-ci.org/jsw0528/HexColors.swift.svg?branch=master
+[ci-url]: https://travis-ci.org/jsw0528/HexColors.swift
+[carthage-image]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
+[carthage-url]: https://github.com/Carthage/Carthage
 
 ## Requirements
 
