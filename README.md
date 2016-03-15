@@ -10,18 +10,14 @@
 
 ## Requirements
 
-- iOS 7.2
+- iOS 7.0
 - Xcode 7.2 (Swift 2.1)
 
 ## Installation
 
-### Carthage
+### Using [Carthage](https://github.com/Carthage/Carthage)
 
-To integrate HexColors.swift into your project using Carthage add the following to your `Cartfile`:
-
-```
-github "jsw0528/HexColors.swift"
-```
+Add `github "jsw0528/HexColors.swift"` to your `Cartfile` and run `carthage update --platform iOS`. If unfamiliar with Carthage then checkout their [Getting Started section](https://github.com/Carthage/Carthage#getting-started) or this [sample app](https://github.com/ankurp/DollarCarthageApp)
 
 Then add `import HexColors` to the top of the files using HexColors.swift.
 
