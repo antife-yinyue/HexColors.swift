@@ -35,9 +35,11 @@ UIColor(hex: "#ffffff")
 UIColor(hex: "#ffffff", alpha: 0.5)
 ```
 
-## Got `Library not loaded: @rpath/HexColors.framework/HexColors` error?
+## Got an error?
 
-Please refer to Carthage/Carthage#616
+> Library not loaded: @rpath/HexColors.framework/HexColors
+
+Please refer to [Carthage/Carthage#616](https://github.com/Carthage/Carthage/issues/616#issuecomment-121095995)
 
 ## License
 
