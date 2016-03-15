@@ -35,6 +35,10 @@ UIColor(hex: "#ffffff")
 UIColor(hex: "#ffffff", alpha: 0.5)
 ```
 
+## Got `Library not loaded: @rpath/HexColors.framework/HexColors` error?
+
+Please refer to Carthage/Carthage#616
+
 ## License
 
 HexColors.swift is released under an MIT license. See the LICENSE file for more information.
