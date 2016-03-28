@@ -7,84 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C4BC43B1C97116000196727 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4BC43A1C97116000196727 /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C4BC4421C97116000196727 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4BC4371C97116000196727 /* HexColors.framework */; };
-		1C4BC4471C97116000196727 /* HexColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BC4461C97116000196727 /* HexColorsTests.swift */; };
-		1C4BC4521C9711B800196727 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BC4511C9711B800196727 /* HexColors.swift */; };
+		1C054F451CA935BB00B5414C /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C054F441CA935BB00B5414C /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C054F4C1CA935BB00B5414C /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C054F411CA935BB00B5414C /* HexColors.framework */; };
+		1C054F511CA935BB00B5414C /* HexColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C054F501CA935BB00B5414C /* HexColorsTests.swift */; };
+		1C054F5C1CA9364C00B5414C /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C054F5B1CA9364C00B5414C /* HexColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C4BC4431C97116000196727 /* PBXContainerItemProxy */ = {
+		1C054F4D1CA935BB00B5414C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1C4BC42E1C97116000196727 /* Project object */;
+			containerPortal = 1C054F381CA935BB00B5414C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C4BC4361C97116000196727;
+			remoteGlobalIDString = 1C054F401CA935BB00B5414C;
 			remoteInfo = HexColors;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C4BC4371C97116000196727 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C4BC43A1C97116000196727 /* HexColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
-		1C4BC43C1C97116000196727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C4BC4411C97116000196727 /* HexColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C4BC4461C97116000196727 /* HexColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorsTests.swift; sourceTree = "<group>"; };
-		1C4BC4481C97116000196727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C4BC4511C9711B800196727 /* HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColors.swift; sourceTree = "<group>"; };
+		1C054F411CA935BB00B5414C /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C054F441CA935BB00B5414C /* HexColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		1C054F461CA935BB00B5414C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C054F4B1CA935BB00B5414C /* HexColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C054F501CA935BB00B5414C /* HexColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorsTests.swift; sourceTree = "<group>"; };
+		1C054F521CA935BB00B5414C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C054F5B1CA9364C00B5414C /* HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C4BC4331C97116000196727 /* Frameworks */ = {
+		1C054F3D1CA935BB00B5414C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C4BC43E1C97116000196727 /* Frameworks */ = {
+		1C054F481CA935BB00B5414C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4BC4421C97116000196727 /* HexColors.framework in Frameworks */,
+				1C054F4C1CA935BB00B5414C /* HexColors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C4BC42D1C97116000196727 = {
+		1C054F371CA935BB00B5414C = {
 			isa = PBXGroup;
 			children = (
-				1C4BC4391C97116000196727 /* HexColors */,
-				1C4BC4451C97116000196727 /* HexColorsTests */,
-				1C4BC4381C97116000196727 /* Products */,
+				1C054F431CA935BB00B5414C /* HexColors */,
+				1C054F4F1CA935BB00B5414C /* HexColorsTests */,
+				1C054F421CA935BB00B5414C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1C4BC4381C97116000196727 /* Products */ = {
+		1C054F421CA935BB00B5414C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C4BC4371C97116000196727 /* HexColors.framework */,
-				1C4BC4411C97116000196727 /* HexColorsTests.xctest */,
+				1C054F411CA935BB00B5414C /* HexColors.framework */,
+				1C054F4B1CA935BB00B5414C /* HexColorsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C4BC4391C97116000196727 /* HexColors */ = {
+		1C054F431CA935BB00B5414C /* HexColors */ = {
 			isa = PBXGroup;
 			children = (
-				1C4BC4511C9711B800196727 /* HexColors.swift */,
-				1C4BC43A1C97116000196727 /* HexColors.h */,
-				1C4BC43C1C97116000196727 /* Info.plist */,
+				1C054F5B1CA9364C00B5414C /* HexColors.swift */,
+				1C054F441CA935BB00B5414C /* HexColors.h */,
+				1C054F461CA935BB00B5414C /* Info.plist */,
 			);
 			path = HexColors;
 			sourceTree = "<group>";
 		};
-		1C4BC4451C97116000196727 /* HexColorsTests */ = {
+		1C054F4F1CA935BB00B5414C /* HexColorsTests */ = {
 			isa = PBXGroup;
 			children = (
-				1C4BC4461C97116000196727 /* HexColorsTests.swift */,
-				1C4BC4481C97116000196727 /* Info.plist */,
+				1C054F501CA935BB00B5414C /* HexColorsTests.swift */,
+				1C054F521CA935BB00B5414C /* Info.plist */,
 			);
 			path = HexColorsTests;
 			sourceTree = "<group>";
@@ -92,25 +92,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C4BC4341C97116000196727 /* Headers */ = {
+		1C054F3E1CA935BB00B5414C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4BC43B1C97116000196727 /* HexColors.h in Headers */,
+				1C054F451CA935BB00B5414C /* HexColors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1C4BC4361C97116000196727 /* HexColors */ = {
+		1C054F401CA935BB00B5414C /* HexColors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C4BC44B1C97116000196727 /* Build configuration list for PBXNativeTarget "HexColors" */;
+			buildConfigurationList = 1C054F551CA935BB00B5414C /* Build configuration list for PBXNativeTarget "HexColors" */;
 			buildPhases = (
-				1C4BC4321C97116000196727 /* Sources */,
-				1C4BC4331C97116000196727 /* Frameworks */,
-				1C4BC4341C97116000196727 /* Headers */,
-				1C4BC4351C97116000196727 /* Resources */,
+				1C054F3C1CA935BB00B5414C /* Sources */,
+				1C054F3D1CA935BB00B5414C /* Frameworks */,
+				1C054F3E1CA935BB00B5414C /* Headers */,
+				1C054F3F1CA935BB00B5414C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -118,72 +118,72 @@
 			);
 			name = HexColors;
 			productName = HexColors;
-			productReference = 1C4BC4371C97116000196727 /* HexColors.framework */;
+			productReference = 1C054F411CA935BB00B5414C /* HexColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1C4BC4401C97116000196727 /* HexColorsTests */ = {
+		1C054F4A1CA935BB00B5414C /* HexColorsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C4BC44E1C97116000196727 /* Build configuration list for PBXNativeTarget "HexColorsTests" */;
+			buildConfigurationList = 1C054F581CA935BB00B5414C /* Build configuration list for PBXNativeTarget "HexColorsTests" */;
 			buildPhases = (
-				1C4BC43D1C97116000196727 /* Sources */,
-				1C4BC43E1C97116000196727 /* Frameworks */,
-				1C4BC43F1C97116000196727 /* Resources */,
+				1C054F471CA935BB00B5414C /* Sources */,
+				1C054F481CA935BB00B5414C /* Frameworks */,
+				1C054F491CA935BB00B5414C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1C4BC4441C97116000196727 /* PBXTargetDependency */,
+				1C054F4E1CA935BB00B5414C /* PBXTargetDependency */,
 			);
 			name = HexColorsTests;
 			productName = HexColorsTests;
-			productReference = 1C4BC4411C97116000196727 /* HexColorsTests.xctest */;
+			productReference = 1C054F4B1CA935BB00B5414C /* HexColorsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1C4BC42E1C97116000196727 /* Project object */ = {
+		1C054F381CA935BB00B5414C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "神仙";
 				TargetAttributes = {
-					1C4BC4361C97116000196727 = {
-						CreatedOnToolsVersion = 7.2.1;
+					1C054F401CA935BB00B5414C = {
+						CreatedOnToolsVersion = 7.3;
 					};
-					1C4BC4401C97116000196727 = {
-						CreatedOnToolsVersion = 7.2.1;
+					1C054F4A1CA935BB00B5414C = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 1C4BC4311C97116000196727 /* Build configuration list for PBXProject "HexColors" */;
+			buildConfigurationList = 1C054F3B1CA935BB00B5414C /* Build configuration list for PBXProject "HexColors" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1C4BC42D1C97116000196727;
-			productRefGroup = 1C4BC4381C97116000196727 /* Products */;
+			mainGroup = 1C054F371CA935BB00B5414C;
+			productRefGroup = 1C054F421CA935BB00B5414C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C4BC4361C97116000196727 /* HexColors */,
-				1C4BC4401C97116000196727 /* HexColorsTests */,
+				1C054F401CA935BB00B5414C /* HexColors */,
+				1C054F4A1CA935BB00B5414C /* HexColorsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C4BC4351C97116000196727 /* Resources */ = {
+		1C054F3F1CA935BB00B5414C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C4BC43F1C97116000196727 /* Resources */ = {
+		1C054F491CA935BB00B5414C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,37 +193,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C4BC4321C97116000196727 /* Sources */ = {
+		1C054F3C1CA935BB00B5414C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4BC4521C9711B800196727 /* HexColors.swift in Sources */,
+				1C054F5C1CA9364C00B5414C /* HexColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C4BC43D1C97116000196727 /* Sources */ = {
+		1C054F471CA935BB00B5414C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4BC4471C97116000196727 /* HexColorsTests.swift in Sources */,
+				1C054F511CA935BB00B5414C /* HexColorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C4BC4441C97116000196727 /* PBXTargetDependency */ = {
+		1C054F4E1CA935BB00B5414C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C4BC4361C97116000196727 /* HexColors */;
-			targetProxy = 1C4BC4431C97116000196727 /* PBXContainerItemProxy */;
+			target = 1C054F401CA935BB00B5414C /* HexColors */;
+			targetProxy = 1C054F4D1CA935BB00B5414C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C4BC4491C97116000196727 /* Debug */ = {
+		1C054F531CA935BB00B5414C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -257,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -268,10 +269,11 @@
 			};
 			name = Debug;
 		};
-		1C4BC44A1C97116000196727 /* Release */ = {
+		1C054F541CA935BB00B5414C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -299,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +311,7 @@
 			};
 			name = Release;
 		};
-		1C4BC44C1C97116000196727 /* Debug */ = {
+		1C054F561CA935BB00B5414C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -327,7 +329,7 @@
 			};
 			name = Debug;
 		};
-		1C4BC44D1C97116000196727 /* Release */ = {
+		1C054F571CA935BB00B5414C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +346,7 @@
 			};
 			name = Release;
 		};
-		1C4BC44F1C97116000196727 /* Debug */ = {
+		1C054F591CA935BB00B5414C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = HexColorsTests/Info.plist;
@@ -354,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		1C4BC4501C97116000196727 /* Release */ = {
+		1C054F5A1CA935BB00B5414C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = HexColorsTests/Info.plist;
@@ -367,32 +369,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C4BC4311C97116000196727 /* Build configuration list for PBXProject "HexColors" */ = {
+		1C054F3B1CA935BB00B5414C /* Build configuration list for PBXProject "HexColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C4BC4491C97116000196727 /* Debug */,
-				1C4BC44A1C97116000196727 /* Release */,
+				1C054F531CA935BB00B5414C /* Debug */,
+				1C054F541CA935BB00B5414C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C4BC44B1C97116000196727 /* Build configuration list for PBXNativeTarget "HexColors" */ = {
+		1C054F551CA935BB00B5414C /* Build configuration list for PBXNativeTarget "HexColors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C4BC44C1C97116000196727 /* Debug */,
-				1C4BC44D1C97116000196727 /* Release */,
+				1C054F561CA935BB00B5414C /* Debug */,
+				1C054F571CA935BB00B5414C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1C4BC44E1C97116000196727 /* Build configuration list for PBXNativeTarget "HexColorsTests" */ = {
+		1C054F581CA935BB00B5414C /* Build configuration list for PBXNativeTarget "HexColorsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C4BC44F1C97116000196727 /* Debug */,
-				1C4BC4501C97116000196727 /* Release */,
+				1C054F591CA935BB00B5414C /* Debug */,
+				1C054F5A1CA935BB00B5414C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1C4BC42E1C97116000196727 /* Project object */;
+	rootObject = 1C054F381CA935BB00B5414C /* Project object */;
 }

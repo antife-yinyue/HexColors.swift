@@ -5,14 +5,14 @@ public extension UIColor {
   /**
    Define UIColor with hex color string.
 
-   - parameter hex:   hex color string, #fff or #ffffff
-   - parameter alpha: a number between 0.0 and 1.0
+   - parameter hex:   hex color string, just like #fff or #ffffff
+   - parameter alpha: a number between 0 and 1
 
    - returns: UIColor
    */
-  public convenience init?(var hex: String, alpha: Float = 1.0) {
+  public convenience init?(hex: String, alpha: Float = 1.0) {
 
-    if (hex.rangeOfString("(^#?[0-9A-Fa-f]{6}$)|(^#?[0-9A-Fa-f]{3}$)", options: .RegularExpressionSearch) == nil) {
+    if hex.rangeOfString("(^#?[0-9A-Fa-f]{6}$)|(^#?[0-9A-Fa-f]{3}$)", options: .RegularExpressionSearch) == nil {
       self.init()
       return nil
     }
@@ -20,25 +20,26 @@ public extension UIColor {
     var red: String
     var green: String
     var blue: String
+    var hexString: String = hex
 
     // Check for hash and remove the hash
-    if hex.hasPrefix("#") {
-      hex = hex.substringFromIndex(hex.startIndex.advancedBy(1))
+    if hexString.hasPrefix("#") {
+      hexString = hexString.substringFromIndex(hexString.startIndex.advancedBy(1))
     }
 
-    // Deal with 3 character Hex strings
-    if hex.characters.count == 3 {
-      red = (hex as NSString).substringToIndex(1)
-      green = (hex as NSString).substringWithRange(NSMakeRange(1, 1))
-      blue = (hex as NSString).substringFromIndex(2)
+    // Deal with 3 character hex strings
+    if hexString.characters.count == 3 {
+      red = (hexString as NSString).substringToIndex(1)
+      green = (hexString as NSString).substringWithRange(NSMakeRange(1, 1))
+      blue = (hexString as NSString).substringFromIndex(2)
 
       red += red
       green += green
       blue += blue
     } else {
-      red = (hex as NSString).substringToIndex(2)
-      green = (hex as NSString).substringWithRange(NSMakeRange(2, 2))
-      blue = (hex as NSString).substringFromIndex(4)
+      red = (hexString as NSString).substringToIndex(2)
+      green = (hexString as NSString).substringWithRange(NSMakeRange(2, 2))
+      blue = (hexString as NSString).substringFromIndex(4)
     }
 
     var redInt: CUnsignedInt = 0

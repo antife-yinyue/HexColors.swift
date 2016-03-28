@@ -11,7 +11,7 @@
 ## Requirements
 
 - iOS 7.0
-- Xcode 7.2 (Swift 2.1)
+- Xcode 7.3 (Swift 2.2)
 
 ## Installation
 
